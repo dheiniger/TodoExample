@@ -1,0 +1,3 @@
+{:main todo-example.core
+ :output-to "target-x/main.js" ;;the hyphen is to address a bug in the closure compiler
+ :output-dir "target-x"}

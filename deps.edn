@@ -1,0 +1,9 @@
+{:deps {org.clojure/clojure           {:mvn/version "1.12.4"}
+        org.clojure/clojurescript     {:mvn/version "1.11.60"}
+        org.clojure/data.json         {:mvn/version "2.5.2"}
+        org.clojure/core.async        {:mvn/version "1.8.741"}
+        io.vouch/krell                {:mvn/version "0.5.4"}
+        io.vouch/reagent-react-native {:git/url "https://github.com/vouch-opensource/reagent-react-native.git"
+                                       :sha     "dc4a6730e0da3f8b99243b1fd0912a5c802b43bc"}
+        reagent/reagent               {:mvn/version "1.2.0"
+                                       :exclusions  [cljsjs/react cljsjs/react-dom]}}}
