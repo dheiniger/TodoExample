@@ -12,9 +12,10 @@ clj -M -m cljs.main --install-deps
 > 
 
 ## Start the REPL
+### Intellij/Cursive
 Set up a configuration for a local repl with clojure.main.  Use these parameters
 ```
-clj -M -m krell.main -co build.edn -c -r
+-m krell.main -co build.edn -c -r
 ```
 
 ## Run the app
