@@ -12,7 +12,7 @@ clj -M -m cljs.main --install-deps
 > 
 
 ## Start the REPL
-### Intellij/Cursive
+### Android Studio (Intellij/Cursive)
 Set up a configuration for a local repl with clojure.main.  Use these parameters
 ```
 -m krell.main -co build.edn -c -r
