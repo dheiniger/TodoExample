@@ -21,13 +21,9 @@ Set up a configuration for a local repl with clojure.main.  Use these parameters
 ## Run the app
 After setting up an emulator, or real device, run this command
 ```
-npx react-native run android
+npx react-native run-android
 ```
 You may need to right click on your deps.edn file to set it as a clojure project before this will work.
-
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
-
-To start the Metro dev server, run the following command from the root of your React Native project:
 
 ### Status
 This app is incomplete and only meant as a reference.  It demonstrates a minimal Clojurescript setup with some basic functionality including using a 3rd party library and setting up local storage.
